@@ -1,4 +1,4 @@
-# IDS_OS_log_tagging_and_LSTM
+# An IDS for Detecting Password-Spray Attacks in Cloud Hosts from Native Host Data Using OS Log Tagging and LSTM
 
 This repository is focused on the development of an IDS using OS logs Tagging for clustering and identifying different OS log patterns and LSTM as our detection module.
 
