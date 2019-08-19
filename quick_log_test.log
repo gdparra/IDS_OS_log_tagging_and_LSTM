@@ -1,0 +1,35 @@
+Dec  4 08:37:49 bigdata-vm-3 sudo:  student : TTY=pts/9 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/ssh 149.165.170.209
+Nov  7 06:41:25 bigdata-vm-55 avahi-autoipd(ens3)[23048]: Callout BIND, address 169.254.6.247 on interface ens3
+Nov  7 06:41:29 bigdata-vm-55 avahi-autoipd(ens3)[23048]: Callout STOP, address 169.254.6.247 on interface ens3
+Nov 28 01:03:13 bigdata-vm-7 avahi-autoipd(ens3)[759]: Callout UNBIND, address 169.254.6.115 on interface ens3
+Nov  7 06:41:19 bigdata-vm-55 avahi-autoipd(ens3)[23048]: Starting with address 169.254.6.247
+Nov  7 06:41:29 bigdata-vm-55 avahi-autoipd(ens3)[23048]: Successfully claimed IP address 169.254.6.247
+Dec  5 15:23:04 bigdata-vm-21 dockerd[1552]: time="2018-12-05T15:23:04.274244083-10:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Nov 23 04:39:47 bigdata-vm-22 sh[1582]: No subnet declaration for ens3 (10.1.1.15).
+Dec  4 08:09:14 bigdata-vm-3 sshd[18922]: Accepted password for student from 185.176.221.172 port 55907 ssh2
+Nov 23 04:37:47 bigdata-vm-22 sshd[1259]: Accepted publickey for root from 98.156.146.24 port 61220 ssh2: RSA SHA256:VdMdQ4GrieR0LtAX2Xk0se8yUD01gPMDCaDO+LFOPyk
+Feb  8 03:58:50 bigdata-vm-6 sshd[2094]: Connection closed by 45.116.44.22 port 51070 [preauth]
+Nov  6 22:01:53 bigdata-vm-49 sshd[1209]: Connection reset by 122.114.86.40 port 61176 [preauth]
+Nov  7 10:08:19 bigdata-vm-8 sshd[15245]: Disconnected from 10.1.1.54 port 44458
+Nov  6 18:20:26 bigdata-vm-49 sshd[27102]: Disconnected from 186.178.63.1 port 53542 [preauth]
+Nov  6 18:19:27 bigdata-vm-49 sshd[27037]: error: maximum authentication attempts exceeded for root from 186.178.63.1 port 53504 ssh2 [preauth]
+Nov 16 17:04:19 bigdata-vm-13 sshd[12999]: Failed none for invalid user  from 23.224.2.202 port 52189 ssh2
+Nov  6 22:03:51 bigdata-vm-49 sshd[1293]: Failed password for root from 122.114.86.40 port 49392 ssh2
+Nov 22 15:44:51 bigdata-vm-33 sshd[28247]: fatal: packet_write_wait: Connection from 122.226.181.164 port 41098: Broken pipe [preauth]
+Nov  7 09:54:32 bigdata-vm-7 sshd[30031]: fatal: ssh_dispatch_run_fatal: Connection from 10.1.1.54 port 56524: Broken pipe [preauth]
+Jan  1 16:23:54 bigdata-vm-3 sshd[6141]: fatal: ssh_dispatch_run_fatal: Connection from 175.42.159.226 port 6094: incomplete message [preauth]
+Dec 21 17:59:08 elk-master sshd[15502]: fatal: Unable to negotiate with 185.143.223.191 port 64120: no matching cipher found. Their offer: aes256-cbc,rijndael-cbc@lysator.liu.se,aes192-cbc,aes128-cbc,arcfour128,arcfour,3des-cbc,none [preauth]
+Feb 17 22:11:30 elk-master sshd[16667]: fatal: Unable to negotiate with 66.228.45.154 port 49922: no matching host key type found. Their offer: ssh-dss [preauth]
+Oct 22 12:08:33 bigdata-vm-28 sshd[16510]: fatal: Unable to negotiate with 155.64.38.121 port 61353: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Dec 21 15:27:50 bigdata-vm-54 sshd[19801]: input_userauth_request: invalid user 192.168.1.1 60020 [preauth]
+Nov 17 06:27:26 bigdata-vm-19 sshd[4311]: input_userauth_request: invalid user 40.123.42.49\\n [preauth]
+Nov  7 00:52:47 bigdata-vm-47 sshd[20908]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.225.0.157
+Nov  6 22:01:38 bigdata-vm-49 sshd[1207]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.114.86.40  user=root
+Nov  7 11:34:40 bigdata-vm-22 sshd[25513]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.225.0.157  user=root
+Nov  7 00:52:47 bigdata-vm-47 sshd[20908]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.225.0.157
+Nov  6 17:28:28 elk-master sshd[10484]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=188.22.19.11
+Nov  6 22:02:25 bigdata-vm-49 sshd[1285]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.114.86.40  user=root
+Nov  6 20:20:37 bigdata-vm-16 sshd[12284]: Received disconnect from 83.175.217.26 port 50277:11: Bye Bye [preauth]
+Nov  7 10:08:03 bigdata-vm-8 sshd[15209]: Received disconnect from 10.1.1.54 port 44342:11: disconnected by user
+Nov  6 18:20:37 bigdata-vm-49 sshd[27104]: Received disconnect from 186.178.63.1 port 53555:11: disconnected by user [preauth]
+Jan  2 00:48:13 bigdata-vm-42 sshd[22552]: fatal: ssh_dispatch_run_fatal: Connection from 197.9.237.83 port 38593: message authentication code incorrect [preauth]
