@@ -13,3 +13,5 @@ The process followed in the proposed paper is the following:
 7. Pre-process the OS logs, this time using the GROK patterns that should match logs and generate new attributes.
 8. Annotate network flows with the new attributes generated with the OS logs dataset.
 9. Train a LSTM model to detect anomalies using the new annotated network flow dataset.
+
+Test
